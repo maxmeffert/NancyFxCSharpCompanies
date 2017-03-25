@@ -1,8 +1,9 @@
 ﻿using System;
 using System.Threading.Tasks;
 using Nancy;
+using NancyFxCSharpCompanies.Services;
 
-namespace NancyFxCSharpCompanies
+namespace NancyFxCSharpCompanies.Modules
 {
 	public class CompanyModule : NancyModule
 	{

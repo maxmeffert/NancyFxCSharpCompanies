@@ -2,8 +2,9 @@
 using System.Linq;
 using System.Collections.Generic;
 using System.Threading.Tasks;
+using NancyFxCSharpCompanies.Models;
 
-namespace NancyFxCSharpCompanies
+namespace NancyFxCSharpCompanies.Services.MockServices
 {
 	public class EmployeeMockService : IEmployeeService
 	{

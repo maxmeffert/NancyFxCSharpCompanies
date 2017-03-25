@@ -1,8 +1,9 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Threading.Tasks;
+using NancyFxCSharpCompanies.Models;
 
-namespace NancyFxCSharpCompanies
+namespace NancyFxCSharpCompanies.Services
 {
 	public interface IEmployeeService
 	{

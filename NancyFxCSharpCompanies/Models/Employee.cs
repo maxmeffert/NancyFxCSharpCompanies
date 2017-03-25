@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace NancyFxCSharpCompanies
+namespace NancyFxCSharpCompanies.Models
 {
 	public class Employee
 	{

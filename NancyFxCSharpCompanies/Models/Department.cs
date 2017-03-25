@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 
-namespace NancyFxCSharpCompanies
+namespace NancyFxCSharpCompanies.Models
 {
 	public class Department
 	{
