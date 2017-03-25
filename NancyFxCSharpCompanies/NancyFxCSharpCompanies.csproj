@@ -39,6 +39,7 @@
     <Reference Include="Nancy.Hosting.Aspnet">
       <HintPath>..\packages\Nancy.Hosting.Aspnet.1.4.1\lib\net40\Nancy.Hosting.Aspnet.dll</HintPath>
     </Reference>
+    <Reference Include="Microsoft.CSharp" />
   </ItemGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
   <ProjectExtensions>
@@ -55,12 +56,20 @@
   <ItemGroup>
     <Folder Include="Models\" />
     <Folder Include="Modules\" />
+    <Folder Include="Services\" />
+    <Folder Include="Services\MockServices\" />
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Models\Company.cs" />
     <Compile Include="Models\Department.cs" />
     <Compile Include="Models\Employee.cs" />
     <Compile Include="Bootstrapper.cs" />
-    <Compile Include="Modules\CompaniesModule.cs" />
+    <Compile Include="Modules\DepartmentModule.cs" />
+    <Compile Include="Modules\CompanyModule.cs" />
+    <Compile Include="Services\ICompanyService.cs" />
+    <Compile Include="Services\IDepartmentService.cs" />
+    <Compile Include="Services\IEmployeeService.cs" />
+    <Compile Include="Services\MockServices\CompanyMockService.cs" />
+    <Compile Include="Modules\EmployeeModule.cs" />
   </ItemGroup>
 </Project>
