@@ -8,7 +8,7 @@ namespace NancyFxCSharpCompanies
 		public int Id { get; set; }
 		public string Name { get; set; }
 		public Employee Manager { get; set; }
-		public ICollection<Employee> Employees { get; } = new List<Employee>()
+		public ICollection<Employee> Employees { get; } = new List<Employee>();
 	}
 }
 

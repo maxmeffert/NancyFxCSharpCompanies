@@ -54,10 +54,13 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Models\" />
+    <Folder Include="Modules\" />
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Models\Company.cs" />
     <Compile Include="Models\Department.cs" />
     <Compile Include="Models\Employee.cs" />
+    <Compile Include="Bootstrapper.cs" />
+    <Compile Include="Modules\CompaniesModule.cs" />
   </ItemGroup>
 </Project>
