@@ -71,5 +71,7 @@
     <Compile Include="Services\IEmployeeService.cs" />
     <Compile Include="Services\MockServices\CompanyMockService.cs" />
     <Compile Include="Modules\EmployeeModule.cs" />
+    <Compile Include="Services\MockServices\DepartmentMockService.cs" />
+    <Compile Include="Services\MockServices\EmployeeMockService.cs" />
   </ItemGroup>
 </Project>
