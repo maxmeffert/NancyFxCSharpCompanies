@@ -52,4 +52,12 @@
     <Content Include="packages.config" />
     <Content Include="web.config" />
   </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Models\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Models\Company.cs" />
+    <Compile Include="Models\Department.cs" />
+    <Compile Include="Models\Employee.cs" />
+  </ItemGroup>
 </Project>
